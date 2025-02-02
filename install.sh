@@ -7,7 +7,7 @@ REPO="https://raw.githubusercontent.com/myridwan/scriptvps/ipuk/"
 CDNF="https://raw.githubusercontent.com/NeGamer01/vip/main"
 ###
 BURIQ () {
-    curl -sS https://raw.githubusercontent.com/NeGamer01/izin/main/ip > /root/tmp
+    curl -sS https://raw.githubusercontent.com/savagetech56/Premier/main/ip > /root/tmp
     data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
     for user in "${data[@]}"
     do
@@ -25,7 +25,7 @@ BURIQ () {
 }
 # https://raw.githubusercontent.com/NeGamer01/izin/main/ip 
 MYIP=$(curl -sS ipv4.icanhazip.com)
-Name=$(curl -sS https://raw.githubusercontent.com/NeGamer01/izin/main/ip | grep $MYIP | awk '{print $2}')
+Name=$(curl -sS https://raw.githubusercontent.com/savagetech56/Premier/main/ip | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
 
@@ -42,7 +42,7 @@ fi
 
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
-    IZIN=$(curl -sS https://raw.githubusercontent.com/NeGamer01/izin/main/ip | awk '{print $4}' | grep $MYIP)
+    IZIN=$(curl -sS https://raw.githubusercontent.com/savagetech56/Premier/main/ip | awk '{print $4}' | grep $MYIP)
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
     else
@@ -117,7 +117,7 @@ if [ "" = "$PKG_OK" ]; then
   echo -e "[ ${tyblue}NOTES${NC} ] After rebooting"
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
-  echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Mod By ARH-PROJECT"
+  echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script BY TOXIC TECH"
   echo -e "[ ${tyblue}NOTES${NC} ] if you understand then tap enter now.."
   read
 else
@@ -207,7 +207,7 @@ fi
     chmod +x /tmp/bbr.sh && bash /tmp/bbr.sh
 
 echo ""
-wget -q https://raw.githubusercontent.com/NeGamer01/vip/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
+wget -q https://raw.githubusercontent.com/savagetech56/Premier/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
 rm dependencies.sh
 clear
 
@@ -292,27 +292,27 @@ EOF
 echo -e "$green[INFO]$NC Install SSH"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/NeGamer01/vip/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/savagetech56/Premier/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "$green[INFO]$NC Install XRAY!"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/NeGamer01/vip/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/savagetech56/Premier/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 echo -e "$green[INFO]$NC Install SET-BR!"
-wget https://raw.githubusercontent.com/NeGamer01/vip/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/savagetech56/Premier/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 echo -e "$green[INFO]$NC Install WEBSOCKET!"
-wget https://raw.githubusercontent.com/NeGamer01/vip/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/savagetech56/Premier/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
-wget https://raw.githubusercontent.com/NeGamer01/vip/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
+wget https://raw.githubusercontent.com/savagetech56/Premier/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
-wget https://raw.githubusercontent.com/NeGamer01/vip/main/update/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/savagetech56/Premier/main/update/update.sh && chmod +x update.sh && ./update.sh
 rm -f update.sh
 clear
-ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+ln -fs /usr/share/zoneinfo/Africa/Nairobi /etc/localtime
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -352,7 +352,7 @@ fi
 curl -sS ifconfig.me > /etc/myipvps
 
 echo " "
-echo "=====================-[ AutoScript Arh-Project ]-===================="
+echo "=====================-[ PREMIER AUTO SCRIPT  ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -392,13 +392,13 @@ echo "   - Admin Control" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> WhatsApp : +6283850135751 (Text Only)"  | tee -a log-install.txt
-echo "   >>> Telegram : t.me/citralinggau"  | tee -a log-install.txt
+echo "   >>> WhatsApp : +254716637803 (Text Only)"  | tee -a log-install.txt
+echo "   >>> Telegram : t.me/ToxicSavage"  | tee -a log-install.txt
 echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script ARH-PROJECT  ]-==============="
+echo "===============-[  PREMIUM AUTO SCRIPT ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
