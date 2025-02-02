@@ -23,7 +23,7 @@ BURIQ () {
     done
     rm -f  /root/tmp
 }
-# https://raw.githubusercontent.com/NeGamer01/izin/main/ip 
+# https://raw.githubusercontent.com/savagetech56/Premier/main/ip 
 MYIP=$(curl -sS ipv4.icanhazip.com)
 Name=$(curl -sS https://raw.githubusercontent.com/savagetech56/Premier/main/ip | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
